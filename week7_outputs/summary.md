@@ -1,0 +1,6 @@
+- Test set: 12 volumes from BMC, BIDMC, HK (unseen hospitals); proposer trained on RUNMC only (validation 3D Dice 0.844).
+- Proposer alone: 3D Dice 0.599. MedSAM best box per slice: 0.595. Greedy propagation: 0.520.
+- DP (Viterbi): 0.603. MMAS: 0.602. MMAS + DP seed: 0.603. Random search (same budget): 0.587.
+- Upper bounds: oracle selection 0.650, oracle boxes 0.888.
+- Go/no-go preview: headroom 0.056, candidate recall 0.53, confidence Spearman 0.33, fitness Spearman (median) 0.84.
+- Local-only fitness: DP is exact, so MMAS is expected to match it; global terms, ACO_R refinement, flags/corrections and competing colonies follow in Phase 2.

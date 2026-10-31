@@ -1,0 +1,5 @@
+check,value,target,passed
+Headroom: oracle selection − best box (3D Dice),0.056,≥ ~0.03,True
+Candidate recall (slices with a box of Dice ≥ 0.7),0.533,≥ ~0.80,False
+Spearman: MedSAM iou_pred vs true slice Dice,0.326,≥ ~0.40,False
+Median Spearman: fitness F vs true 3D Dice,0.84,≥ ~0.50,True

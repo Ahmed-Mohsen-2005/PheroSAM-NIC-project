@@ -1,0 +1,7 @@
+site,volumes,slices_median,inplane,spacing_mm,prostate_slices_median,role
+RUNMC,30,20,384x384,3.6 x 0.52,14,source (proposer training)
+BMC,30,32,384x384,3.0 x 0.42,13,test
+I2CVB,19,64,384x384,1.2 x 0.53,25,unused
+UCL,13,23,384x384,3.3 x 0.52,13,unused
+BIDMC,12,43,384x384,2.2 x 0.36,22,test
+HK,12,24,384x384,3.6 x 0.52,12,test
